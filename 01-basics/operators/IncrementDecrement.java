@@ -1,15 +1,15 @@
 package operators;
 
 public class IncrementDecrement {
-    public static  void main(String[] args) {
 
-        int count = 5;
+    public static void main(String[] args) {
 
-        count++;
-        System.out.println(count);
+        int x = 5;
 
-        count--;
-        System.out.println(count);
+        System.out.println(x++);
+        System.out.println(x);
+
+        System.out.println(++x);
+        System.out.println(x);
     }
-    
 }
